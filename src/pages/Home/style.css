@@ -20,6 +20,7 @@
   background-repeat: no-repeat;
   animation: change 40s ease-in-out infinite;
   transition-duration: 2s;
+  --tshirt-banner: url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1788896243/banner_tshirt_desktop_quybvs.png);
 }
 
 :root {
@@ -34,25 +35,31 @@
 
 
 @keyframes change {
-  0%,100% {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+      var(--tshirt-banner);
+  }
+  25% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896081/home1_xxlclo.jpg);
   }
-  20% {
+  50% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896080/home2_fwse0q.jpg);
   }
-  40% {
+  75% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896080/home3_mss71d.jpg);
   }
-  60% {
+  100% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896082/home4_fgdtfi.jpg);
   }
-  80% {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
-      url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896090/IMG20230921194023_rzcmok.jpg);
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    --tshirt-banner: url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1788895611/tshirt_banner_qxwfiz.png);
   }
 }
 
