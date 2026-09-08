@@ -39,18 +39,18 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       var(--tshirt-banner);
   }
-  25% {
+  /* 25% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896081/home1_xxlclo.jpg);
-  }
-  50% {
+  } */
+  /* 50% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896080/home2_fwse0q.jpg);
-  }
-  75% {
+  } */
+  /* 75% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896080/home3_mss71d.jpg);
-  }
+  } */
   100% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
       url(https://res.cloudinary.com/ddb6lsyht/image/upload/v1782896082/home4_fgdtfi.jpg);
